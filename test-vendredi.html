@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<script>
+
+let eleves = ["Alina", "Marie", "Alex", "Rachel", "Nolwenn", "Marie", "Thomas", "Noah", "Gebril", "Yazdan", "Juliette", "Laura", "Sara", "Camille"];
+let profs = ["Alina", "Marie", "Alex"];
+function get_names (list, letter){
+    for (let index = 0; list.length > index; index ++){
+        //console.log('------------'+index);
+        //console.log(list[index]);
+       // console.log(list[index].charAt(0));
+        //console.log(letter)
+        if (list[index].charAt(0) == letter){
+            console.log (list[index])
+        }
+    }
+}
+get_names (eleves, "A")
+get_names (profs, "A")
+  
+</script>
+</body>
+</html>
